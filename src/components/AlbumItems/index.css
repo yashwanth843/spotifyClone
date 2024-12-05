@@ -1,0 +1,127 @@
+.albumItemSongs {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .albumItemSongs {
+    align-items: center;
+  }
+}
+
+.song-name-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .song-name-container {
+    align-items: center;
+  }
+}
+
+.songName {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-bottom: 0;
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .songName {
+    margin-left: 90px;
+    margin-right: 78px;
+    width: 90%;
+  }
+}
+
+.songSinger {
+  color: #9b9b9b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .songSinger {
+    display: none;
+  }
+}
+
+.durationContainer {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .durationContainer {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.durationTime {
+  color: #9b9b9b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .durationTime {
+    margin-left: 245px;
+  }
+}
+
+.AudioContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #181818;
+  display: flex;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .AudioContainer {
+    align-items: center;
+    margin-left: 115px;
+
+    width: 91%;
+  }
+}
+
+.song {
+}
+
+@media screen and (min-width: 768px) {
+  .song {
+    width: 100%;
+  }
+}
+
+.songImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.popularity {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .popularity {
+    display: flex;
+    color: #9b9b9b;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-right: 245px;
+  }
+}

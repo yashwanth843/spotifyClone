@@ -1,0 +1,101 @@
+.playListContainer {
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .playListContainer {
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+  }
+}
+
+.spotifySongContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.songContainer {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .songContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+  }
+}
+
+.spotifySong {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-bottom: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .spotifySong {
+    width: 20%;
+    text-align: center;
+  }
+}
+
+.spotifySinger {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .spotifySinger {
+    width: 50%;
+    margin-top: 28px;
+  }
+}
+
+.spotifySongDuration {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-right: 15px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .spotifySongDuration {
+    width: 8%;
+  }
+}
+
+.spptifyMovie {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .spptifyMovie {
+    display: block;
+    color: #ffffff;
+    font-family: 'Roboto';
+    width: 50%;
+    margin-left: auto;
+    text-align: center;
+  }
+}
+
+.spptifyAgo {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .spptifyAgo {
+    display: block;
+    color: #ffffff;
+    font-family: 'Roboto';
+    text-align: center;
+  }
+}

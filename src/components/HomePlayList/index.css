@@ -1,0 +1,36 @@
+.lists {
+  list-style: none;
+  margin-right: 10px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.images {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  @media screen and (min-width: 768px) {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.images:hover {
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  transform: scale(1.2);
+}
+
+.image-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+}

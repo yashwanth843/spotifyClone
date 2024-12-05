@@ -1,0 +1,83 @@
+.loginFormContainer {
+  background-image: url('https://res.cloudinary.com/dlaypemls/image/upload/v1732183321/Group_138_1_dzdnfr.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    background-image: url('https://res.cloudinary.com/dlaypemls/image/upload/v1732182464/dbp5m2gnjk5n9p5oifr0.png');
+  }
+}
+
+.loginFormCardContainer {
+  background-color: #181818;
+  border-radius: 8px;
+  padding: 40px;
+}
+.loginLogoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loginLogo {
+  width: 100.64px;
+  height: 39.85px;
+  margin-top: 5px;
+  margin-left: -1.2px;
+}
+.logoHeading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  text-align: center;
+  line-height: 36.62px;
+  font-weight: 700;
+}
+.userInfoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.label-name {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+  width: 57px;
+  height: 16px;
+  gap: 4px;
+  margin-top: 4px;
+}
+.userName {
+  outline: none;
+  width: 200px;
+  height: 30px;
+  @media screen and (min-width: 768px) {
+    width: 250px;
+  }
+}
+.loginButton {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #1db954;
+  border: none;
+  color: #ffffff;
+  margin-top: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  @media screen and (min-width: 768px) {
+    width: 250px;
+  }
+}
+.errorMsg {
+  color: #ee2222;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.loginLoading {
+  background-color: #ee2222;
+  min-height: 100vh;
+}

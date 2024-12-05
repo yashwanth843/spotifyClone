@@ -1,0 +1,154 @@
+.AlbumDetailsContainer {
+  background-color: #181818;
+  min-height: 100vh;
+}
+
+.back-button2 {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  gap: 5px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .back-button2 {
+    margin-left: 110px;
+  }
+}
+
+.headerContainers {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .headerContainers {
+    display: flex;
+  }
+}
+
+.albumLoadingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #040306;
+  min-height: 100vh;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .imageContainer {
+    flex-direction: row;
+    margin-left: 150px;
+  }
+}
+
+.album-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .album-image {
+    margin-right: 0;
+  }
+}
+
+.album-text-container {
+  text-align: center;
+}
+
+.album-release-heading {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .album-release-heading {
+    display: flex;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 11px;
+    margin-left: 12px;
+  }
+}
+
+.album-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .album-name {
+    font-size: 28px;
+    margin-left: 15px;
+  }
+}
+
+.album-text-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .album-text-name {
+    margin-right: 70px;
+    font-size: 12px;
+    color: #94a3b8;
+  }
+}
+
+.album-song-container {
+}
+
+@media screen and (min-width: 768px) {
+  .album-song-container {
+    margin-left: 100px;
+  }
+}
+
+.tracksContainer {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .tracksContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    width: 70%;
+    margin-top: 30px;
+  }
+}
+
+.albumLine {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .albumLine {
+    display: flex;
+    width: 90%;
+    margin-left: 120px;
+  }
+}
+
+.failureContainer {
+  background-color: #181818;
+}
+
+.track {
+  color: #ffffff;
+  font-family: 'Roboto';
+}

@@ -1,0 +1,120 @@
+.newReleaseContainer {
+  background-color: #181818;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .newReleaseContainer {
+    flex-direction: column;
+  }
+}
+
+.new-containter {
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .new-containter {
+    margin-left: 0px;
+  }
+}
+
+.newRelease-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .newRelease-heading {
+    margin-top: 10px;
+  }
+}
+
+.new-containter {
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .new-containter {
+    margin-left: 0px;
+  }
+}
+
+.new-release-container {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  gap: 20px;
+  margin-left: 0;
+  margin-right: 20;
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+  background-color: #040306;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .new-release-container {
+    grid-template-columns: repeat(6, 0fr);
+    gap: 30px;
+  }
+}
+
+.failure-container {
+  background-color: #040306;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 312px;
+  height: 350px;
+  margin-left: 6px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-container {
+    width: 900px;
+    height: 400px;
+  }
+}
+
+.failure-image {
+  width: 25px;
+  height: 25px;
+}
+.failure-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.home-loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #040306;
+  width: 312px;
+  height: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-loading-container {
+    width: 900px;
+    height: 400px;
+  }
+}
+
+.loader-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+}

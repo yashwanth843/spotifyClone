@@ -1,0 +1,265 @@
+.playlistsContainer {
+  background-color: #181818;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+@media screen and (min-width: 768px) {
+  .playlistsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.header-container1 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container1 {
+    display: flex;
+  }
+}
+
+.back-button {
+  color: #ffffff;
+  padding-top: 20px;
+  margin-left: 20px;
+  font-size: 14px;
+  background-color: transparent;
+  font-family: 'Roboto';
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .back-button {
+    margin-left: 140px;
+  }
+}
+
+.play-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.play-loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #040306;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .home-loading-container {
+    min-height: 100vh;
+  }
+}
+
+.loader-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.play-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+  width: 90%;
+  margin-bottom: 10;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    width: 100%;
+    font-size: 24px;
+  }
+}
+
+.play-intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .play-intro-container {
+    flex-direction: row;
+    margin-left: 160px;
+  }
+}
+
+.followers {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  margin-top: 0;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+}
+
+.picker {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .picker {
+    display: block;
+    color: #ffffff;
+    font-family: 'Roboto';
+    margin-left: 30px;
+    margin-bottom: 0;
+  }
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* .musicLists {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .musicLists {
+    display: flex;
+  }
+} */
+
+.music-container {
+}
+
+@media screen and (min-width: 768px) {
+  .music-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.large-list {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .large-list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    
+  }
+}
+
+.list-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-right: 100px;
+  margin-left: 4em;
+}
+
+.line {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .line {
+    color: #475569;
+    width: 90%;
+    height: 1px;
+    margin-top: 0;
+    display: flex;
+    margin-left: 120px;
+  }
+}
+
+.playListFailure {
+  background-color: #040306;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 80vh;
+  width: 95%;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .playListFailure {
+    width: 1000px;
+    height: 500px;
+    margin-right: 400px;
+    margin-left: 500px;
+  }
+}
+
+.failure-text-playList {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.failureContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-button1 {
+  align-self: flex-start;
+}
+
+.trybutton-playList {
+  color: #171f46;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  width: 130px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.songType {
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .songType {
+    text-align: left;
+    margin-left: 28px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}

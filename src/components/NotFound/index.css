@@ -1,0 +1,53 @@
+.NotFoundContainer {
+  background-color: #181818;
+  min-height: 100vh;
+}
+
+.not-foundHeader {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .not-foundHeader {
+    display: flex;
+  }
+}
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.not-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.home-button {
+  background-color: #ffffff;
+  border: none;
+  width: 150px;
+  height: 34px;
+  border-radius: 10px;
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .home-button {
+  background-color: #ffffff;
+  border: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  color: #171f46;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+}
